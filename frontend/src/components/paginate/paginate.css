@@ -1,0 +1,74 @@
+/*exclusively for pagination*/
+
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 5%;
+  }
+
+  @media screen and (max-width:1600px){
+    .pagination {
+      
+      margin-top: 13%;
+    }
+  }
+
+  .pages {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+  }
+  .page {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgb(141, 140, 140);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+  }
+  .page:hover {
+    background-color: /*#087f5b*/rgb(70, 161, 247);
+    color: #fff;
+  }
+
+  .active {
+    background-color: /*#087f5b*/rgb(70, 161, 247);
+    color: #fff;
+  }
+
+  .btn {
+    background-color: inherit;
+    border: 1px solid /*#087f5b*/rgb(70, 161, 247);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn:hover {
+    background-color: /*#087f5b*/rgb(70, 161, 247);
+  }
+  .btn--icon {
+    height: 34px;
+    width: 50px;
+    stroke: /*#087f5b*/rgb(70, 161, 247);
+    
+  }
+  .btn--icon:hover {
+    stroke: #fff;
+    background-color: /*#087f5b*/rgb(70, 161, 247);
+  }
+
+/*pagination ending*/

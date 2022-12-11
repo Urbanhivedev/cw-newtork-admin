@@ -1,0 +1,21 @@
+*{
+    background-color: #ffffff;
+}
+
+
+.container {
+    display:flex;
+    background-color: #ffffff;
+    width: calc(100% - 300px);
+    float:right;
+    min-height: 100%;
+} 
+
+/*.others {
+    flex:5;
+    background-color: darkcyan;
+    
+}*/
+
+
+

@@ -1,0 +1,212 @@
+.homeContainer {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:100%;
+    padding-left:1%;
+    padding-right:10%;
+    padding-top: 5%;
+    padding-bottom:5%;
+    background-color: #ffffff;
+    font-size: small;
+}
+
+.positionAdjuster{
+    background-color: #ffffff;
+}
+
+
+.chartsAndMessages {
+    margin-top: 40px; /* ideally , I should use some sort of padding , to push neigbouring elements away , but this workds for now */
+    flex:1;
+    display:flex;
+    width:100%; /*this width is the width from right of dashboard
+                 to the right side of the screen*/
+    justify-content:flex-start;
+    gap:3rem;
+    background-color: #ffffff;
+}
+
+.chartBoxMargin {
+    margin-left: 30rem;
+}
+
+.searchComponent{
+    flex:0.2;
+    
+}
+
+.searchAndFilterContainer {
+
+  display: flex;
+  gap:2.6rem;
+  width: 110%;
+  position: relative;
+  left:1%;
+   
+  
+}
+
+.searchBox{
+    background-color: #ffffff;
+}
+
+.inputBox{
+    width:50%;
+   
+    height: 1rem;
+    font-size:1rem;
+}
+
+.searchButton1 {
+
+   
+
+        padding:25px 40px 15px 40px;
+        
+        border-radius: 5px;
+        background-color: black;
+        color:white;
+        font-size: 1.6rem;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+     
+}
+
+
+.search-button {
+    background: transparent !important;
+    border: none;
+    outline: none;
+    margin-left: -93px;
+  }
+  
+  .search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    background: transparent !important;
+    margin-right: 2rem;
+  }
+
+.propertyList {
+    margin-top: 30px; /*DO NOT DELETE THIS UNTIL YOU ARE SURE OF WHAT YOU ARE DOING, IT STOPS THE HUGE SPACE BETWEEN "my portfolio" AND THE ACTUAL PORTFOLIO ITEMS*/
+    height: 20%;
+    flex:3;
+    
+    max-height: 70vh;
+    background-color: #ffffff;
+    margin-bottom: 2rem;
+   /*   overflow: scroll; THIS ALLOWS ALL FILES TO BE VISIBLE*/
+}
+
+
+.propertyLabelHome {
+    font-size: 1.5rem;
+    position: relative;
+    left: 15%;
+}
+
+.portfolioTitle {
+    font-size: 1.5rem;
+    position: relative;
+    left:2%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.filterAndLogo1{
+    
+   
+   
+    flex:1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+   font-size: 1.5rem;
+   border-style: solid;
+   border-width:1px;
+   padding:1.5rem;
+}
+
+.filterIcon {
+    background-color: #ffffff;
+    
+}
+
+/*temporary*/
+
+
+.filterOptions {
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    left:-5%;
+    top:50px;
+    opacity: 0;
+    
+}
+
+ 
+
+
+.optionItem1 {
+    cursor:pointer;
+    padding:10px;
+    border-style: solid;
+    border-width:1px;
+    
+}
+
+.optionItem2 {
+    cursor:pointer;
+    padding:10px;
+    border-style: solid;
+    border-width:1px;
+    border-top: 0.5px;
+}
+
+
+.optionItem1:hover{
+    background-color: rgb(30, 121, 3);
+    color:white;
+    border-color: black;
+}
+
+.optionItem2:hover{
+    background-color: rgb(30, 121, 3);
+    color:white;
+    border-color: black;
+}
+
+ .ArrowIcon {
+    background-color:/* rgb(30, 121, 3)*/ black;
+    color:white;
+ }
+
+
+.ArrowIcon.active ,  .ArrowIcon:hover {
+    background-color:/* rgb(30, 121, 3)*/ black;
+    color:white;
+
+}
+
+
+.noPropertyContainer {
+   
+    margin:40px 20px;
+    padding: 30px;
+    border-radius:10px;
+   
+
+    -webkit-box-shadow:0px 0px 0px 11px -1px #000000;
+    box-shadow:0px 0px 11px -1px #000000;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

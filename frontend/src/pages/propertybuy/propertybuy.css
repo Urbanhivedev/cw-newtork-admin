@@ -1,0 +1,219 @@
+.propertyViewContainer {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:100%;
+    padding-left:1%;
+    padding-right:10%;
+    padding-top: 5%;
+    padding-bottom:5%;
+
+    margin-top: 0px; /* ideally , I should use some sort of padding , to push neigbouring elements away , but this workds for now */
+}
+
+ .randomLine {
+    margin-bottom: 50px; 
+    width:100%;
+ }
+
+.imageAndDetails {
+   
+    flex:3;
+    display:flex;
+    width:100%; /*this width is the width from right of dashboard
+                 to the right side of the screen*/
+    justify-content:center;
+    
+    
+    
+}
+
+.subjectHouseContainer {
+    flex:4;
+    display:flex;
+    justify-content:center;
+  /* margin-right: 40px;*/
+   
+}
+
+.subjectHousePic {
+  height: 100%;
+   width:80%;
+   border-radius:5px;
+   max-height: 300px;
+
+   /*putting border on pics*/
+   border-style: solid;
+   border-width:1px;
+}
+
+
+.sliderLabel {
+    color:green;
+    font-weight:600;
+}
+
+@media screen and (min-width:1300px){
+    .subjectHousePic {
+       
+        width: 70%;
+    }
+}
+
+
+
+
+.propertyPricingDetails{
+
+     display:flex;
+     flex:2;
+     flex-direction:column;
+     justify-content: center;
+     align-items: center;
+     border-style: solid;
+     border-width:1px;
+     border-radius: 5px;
+     padding: 0px 10px;
+     max-width: 400px;
+     max-height: 300px;
+     
+
+}
+
+.percentageValue{
+    font-size:1.4rem;
+    color:rgb(30, 121, 3);
+}
+
+.moneyValue{
+    font-size: 3.1rem;
+    color:rgb(30, 121, 3);
+}
+
+.propertyDesc {
+    border-style: solid;
+    border-width:1px ;
+    padding:10px;
+    margin-top: 20px; 
+    height: 20%;
+    flex:5;
+    overflow: scroll;
+    max-height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+.propertyDescShort{
+    padding-left:30px; /*this is what makes desc and select purchase amount start on the same place */
+    padding-top: 1%;
+   
+    max-width: 800px;
+}
+
+.smallMargin {
+    margin-top: 12px;
+}
+
+.descriptionAndControls{
+    display:flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.description {
+    border-style: solid;
+    border-width:1px;
+    padding-left:10px;
+    padding-top: 30px;
+    margin-right:10px;
+    flex:3;
+}
+
+.description p {
+    padding:1rem;
+}
+
+.featuresList {
+    list-style: none;
+}
+
+.controls{
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    
+    border-style: solid;
+    border-width:1px;
+    padding:10px;
+   
+}
+
+.displayAndConfirm{
+    display: flex;
+    gap:6rem;
+    justify-content: center;
+    align-items: center;
+    padding:2rem;
+}
+
+
+.button {
+
+    padding:7px 20px 7px 20px;
+    
+    border-radius: 5px;
+    background-color: black;
+    color:white;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 10px;
+
+
+    max-width: 260px;
+ }
+
+
+.fontAdjust {
+    font-size: 15px;
+}
+
+
+.purchaseDate{
+text-align:center;
+border-style: solid;
+border-width:1px;
+padding-top: 15px;
+padding-bottom: 15px;
+margin-top: 15px;
+}
+
+
+.successBuy{
+    color: #270;
+    background-color: #DFF2BF;
+    margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+}
+
+.failureBuy{
+    color: #D8000C;
+    background-color: #FFBABA;
+
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.pendingBuy{
+    color: rgb(156, 156, 90);
+    background-color: rgba(255, 255, 0, 0.281);
+
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 3px 3px 3px 3px;
+}

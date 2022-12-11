@@ -1,0 +1,149 @@
+ .topbar {
+     width:calc(100%);
+     height:50px;
+     background-color:black;
+     position:sticky;
+     top:0;  /* it appears as if topbar class is not responding to it's styles*/
+     z-index:1;
+     position:fixed;
+     
+ }
+
+ .topbarWrapper {
+     height:100%;
+     padding:0px 20px;
+     display:flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color:black; /*my chosen color for my top bar*/
+     height:65px;
+
+ }
+
+ .uh { 
+     height:45px;
+     position:relative;
+     
+     cursor: pointer;
+     display:none;/* i was being lazy here , so i just hid the urban hive logo*/
+ }
+
+
+  .topLeft{
+
+    position: relative;
+    left:28%;
+    background-color: black;
+  }
+
+
+  .topRight {
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+      position:relative;
+      background-color: black; /*to matchthe topbar background color*/
+      margin-top: 5px;
+      
+  }
+
+  .topbarIconContainer { 
+    display:flex;
+      flex-direction: row;
+    position:relative;
+    cursor:pointer;  
+    margin-right: 10px;
+    color:#555;
+    background-color: black;
+    
+}
+
+
+ .topIconBadge{
+     position:absolute; 
+     width:15px;
+     height:15px;
+     top:-5px;
+     right:0px;
+     color:white !important;
+     background-color: red  !important;
+     border-radius:50%;
+     display:flex;
+     align-items:center;
+     justify-content: center;
+     font-size: 12px ;
+
+ }
+
+ .settingsIcon {
+    color:white !important;
+    background-color: black  !important;
+ }
+
+ .logOut {
+    color:white ;
+    background-color: rgb(70, 161, 247);
+ }
+ .notificationIcon {
+
+   /* color:white !important;*/
+    background-color: black  !important;
+
+ }
+
+ .topAvatar {
+     width:50px;
+     height:60px;
+     border-radius:50%;
+     cursor:pointer;
+     
+
+ }
+
+.loggedUser {
+    background-color: inherit;
+    color:white;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/*================== LOG OUT POP UP=============*/
+
+.logOutOptions {
+    
+    position:absolute;
+    left:40%;
+    top:100%;
+    z-index:0;
+    width: max-content;
+    
+}
+
+.widgetSmButtonLog {
+    display:flex; /*to centralize the icon and font*/
+    align-items:center; /* to centralize the icon and font*/
+    flex:1;
+    border:none;
+    border-radius:10px;
+    padding:7px 10px;
+    background-color: grey; /*rgb(70, 161, 247)*/
+    color:#ffff;
+    font-size:15px;
+    
+}
+
+.optionItemLog {
+    cursor:pointer;
+    padding:10px;
+    border-style: solid;
+    border-width:1px;
+    
+}
+
+
+.optionItemLog:hover{
+    background-color: grey/*rgb(70, 161, 247)*/;
+    color:white;
+    border-color: black;
+}
