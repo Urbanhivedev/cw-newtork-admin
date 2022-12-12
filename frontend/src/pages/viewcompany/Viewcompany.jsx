@@ -108,8 +108,8 @@ export default function Viewcompany() {
        <div className="companyViewPreamble backgroundColor">
        
         <div className="backgroundColor companyNameAndLogo">
-        <img src={mdlogo /*only temporary */} style={{width:'100px'}}/>
-          {company ? company.name: 'INTUITIVE'} 
+        <img src={mdlogo /*only temporary */} style={{width:'100px',marginRight:"4%",borderRadius:"15%"}}/>
+          {company ? company.name: 'J & B BUILDING'} 
           </div>
 
        <div className ="backgroundColor" >

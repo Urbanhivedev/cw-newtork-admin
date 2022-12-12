@@ -7,7 +7,7 @@ a {
 .sidebar {
     /*flex:1.5;*/
     height:100%;/*calc(100vh )- 50px */
-    background-color: /*rgb(70, 161, 247)*/black;
+    background-color: /*grey*/black;
     float:left;
     width:220px;
     position:fixed;
@@ -25,7 +25,7 @@ a {
      margin-top: 10px;
     padding:20px;
     color:white;
-    background-color:black/* rgb(70, 161, 247)*/;
+    background-color:black/* grey*/;
 }
 
 .sidebarMenu {
@@ -41,14 +41,14 @@ a {
     justify-content: center;
     align-items: center;
     margin-top: 4rem;
-    background-color: /*rgb(70, 161, 247);*/black ;
+    background-color: /*grey;*/black ;
     width: 220px;
    
 }
 
 .sidebarLogo {
    width:60%; 
-   background-color: /*rgb(70, 161, 247)*/ black;
+   background-color: /*grey*/ black;
    border-radius: 10px;
     
 }
@@ -60,7 +60,7 @@ a {
     padding:10px 10px 10px 10px;
     width: 140px;
     border-radius: 5px;
-    background-color:/*rgb(70, 161, 247)*/black;
+    background-color:/*grey*/black;
     color:white;
     font-size: large;
     font-weight: bold;
@@ -85,7 +85,7 @@ a {
 .sidebarTitle {
     /*font-size:13px;*/
     color:#ffffff;
-    background-color:black ;/*rgb(70, 161, 247);*/ /*I gotta enforce background color here cuz each item  was focing it's own background color*/
+    background-color:black ;/*grey;*/ /*I gotta enforce background color here cuz each item  was focing it's own background color*/
     transition: font-size 0.2s;
 }
 
@@ -98,7 +98,7 @@ a {
 .sidebarList{
     list-style: none;
     padding:5px;
-    background-color: /*rgb(70, 161, 247)*/black; /*I gotta enforce background color here cuz each item  was focing it's own background color*/
+    background-color: /*grey*/black; /*I gotta enforce background color here cuz each item  was focing it's own background color*/
 
 }
 
@@ -108,7 +108,7 @@ a {
     display:flex;
     align-items: center;
     border-radius:10px;
-    background-color: black/*rgb(70, 161, 247);*/ /*I gotta enforce background color here cuz each item  was focing it's own background color*/
+    background-color: black/*grey;*/ /*rgb(70, 161, 247)*/ /*I gotta enforce background color here cuz each item  was focing it's own background color*/
     
 
 }
@@ -120,7 +120,7 @@ a {
 
 .sidebarListItemIcon {
     cursor:pointer;
-    background-color: /*rgb(70, 161, 247);*/black;
+    background-color: /*grey;*/black;
     border-radius:5px;
     margin-right:15px;
 

@@ -54,7 +54,7 @@ export default function Topbar(){
                           {' '}
                           
                           &nbsp;&nbsp;
-                            <ExpandCircleDownIcon style={{backgroundColor:"inherit",color:"grey"/*color:"rgb(70, 161, 247)"*/}} onClick={upMenu} onMouseLeave={downMenu}/>
+                            <ExpandCircleDownIcon style={{backgroundColor:"inherit",color:"grey"/*color:"grey"*/}} onClick={upMenu} onMouseLeave={downMenu}/>
                           </span>
                          
                          <NotificationsNone className="notificationIcon"  />

@@ -36,18 +36,18 @@
     
   }
   .page:hover {
-    background-color: /*#087f5b*/rgb(70, 161, 247);
+    background-color: /*#087f5b*/grey;
     color: #fff;
   }
 
   .active {
-    background-color: /*#087f5b*/rgb(70, 161, 247);
+    background-color: /*#087f5b*/grey;
     color: #fff;
   }
 
   .btn {
     background-color: inherit;
-    border: 1px solid /*#087f5b*/rgb(70, 161, 247);
+    border: 1px solid /*#087f5b*/grey;
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -58,17 +58,17 @@
     justify-content: center;
   }
   .btn:hover {
-    background-color: /*#087f5b*/rgb(70, 161, 247);
+    background-color: /*#087f5b*/grey;
   }
   .btn--icon {
     height: 34px;
     width: 50px;
-    stroke: /*#087f5b*/rgb(70, 161, 247);
+    stroke: /*#087f5b*/grey;
     
   }
   .btn--icon:hover {
     stroke: #fff;
-    background-color: /*#087f5b*/rgb(70, 161, 247);
+    background-color: /*#087f5b*/grey;
   }
 
 /*pagination ending*/
